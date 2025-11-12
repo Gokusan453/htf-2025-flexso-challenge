@@ -26,6 +26,7 @@ export default class Master extends Controller {
       symbol: "",
       whereFound: "",
       language: "",
+      translation: "",
     });
 
     if (!this.creationDialog) {
@@ -54,6 +55,7 @@ export default class Master extends Controller {
       symbol: data?.getProperty("/symbol") as string,
       whereFound: data?.getProperty("/whereFound") as string,
       language: data?.getProperty("/language") as string,
+      translation: data?.getProperty("/translation") as string,
     });
 
     this.creationDialog.close();

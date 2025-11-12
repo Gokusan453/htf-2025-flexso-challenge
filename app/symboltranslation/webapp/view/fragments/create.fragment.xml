@@ -13,6 +13,10 @@
                         <Input id="_IDGenInput1" required="true" value="{create>/symbol}" />
                         <Label id="_IDGenLabel3" text="Where abouts" />
                         <Input id="_IDGenInput2" required="true" value="{create>/whereFound}" />
+                        <Label id="_IDGenLabel4" text="Language" />
+                        <Input id="_IDGenInput3" required="true" value="{create>/language}" />
+                        <Label id="_IDGenLabel5" text="Translation" />
+                        <Input id="_IDGenInput4" required="true" value="{create>/translation}" />
                     </f:content>
                 </f:SimpleForm>
             </VBox>
@@ -21,6 +25,7 @@
             <Toolbar id="_IDGenToolbar">
                 <content>
                     <ToolbarSpacer id="_IDGenToolbarSpacer4" />
+                    <Button id="_IDGenButton3" text="Save" type="Accept" press="save" ariaHasPopup="Dialog" />
                     <Button id="_IDGenButton4" text="Reject" type="Reject" press="closeDialog" ariaHasPopup="Dialog" />
                 </content>
             </Toolbar>
